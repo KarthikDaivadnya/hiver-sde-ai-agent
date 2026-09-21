@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic-settings
+python-dotenv
+
+joblib
+pandas
+numpy
+scikit-learn
+
+sentence-transformers
+faiss-cpu
+
+groq
+pyyaml

@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canvas: 250 249 246;
+  --color-surface: 255 255 255;
+  --color-surface-raised: 255 255 255;
+  --color-border: 231 227 218;
+  --color-border-strong: 214 209 197;
+  --color-ink: 33 31 26;
+  --color-subtle: 107 101 88;
+  --color-faint: 154 147 132;
+
+  --color-accent: 181 84 12;
+  --color-accent-soft: 250 232 216;
+  --color-accent-ink: 255 255 255;
+
+  --color-success: 31 122 80;
+  --color-success-soft: 224 240 231;
+
+  --color-warning: 168 121 10;
+  --color-warning-soft: 248 235 208;
+
+  --color-danger: 178 51 51;
+  --color-danger-soft: 249 224 224;
+}
+
+.dark {
+  --color-canvas: 20 19 16;
+  --color-surface: 28 27 23;
+  --color-surface-raised: 34 32 28;
+  --color-border: 48 45 39;
+  --color-border-strong: 64 60 52;
+  --color-ink: 240 237 230;
+  --color-subtle: 168 162 150;
+  --color-faint: 116 110 98;
+
+  --color-accent: 224 122 58;
+  --color-accent-soft: 61 40 24;
+  --color-accent-ink: 24 16 9;
+
+  --color-success: 90 191 143;
+  --color-success-soft: 27 46 38;
+
+  --color-warning: 216 168 66;
+  --color-warning-soft: 51 41 20;
+
+  --color-danger: 224 118 118;
+  --color-danger-soft: 51 27 27;
+}
+
+* {
+  border-color: rgb(var(--color-border));
+}
+
+html {
+  scroll-padding-top: 1rem;
+}
+
+body {
+  background-color: rgb(var(--color-canvas));
+  color: rgb(var(--color-ink));
+  font-family: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: rgb(var(--color-accent) / 0.22);
+}
+
+/* Visible keyboard focus everywhere, without a ring on mouse clicks. */
+:focus-visible {
+  outline: 2px solid rgb(var(--color-accent));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-border-strong)) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-border-strong));
+  border-radius: 9999px;
+}

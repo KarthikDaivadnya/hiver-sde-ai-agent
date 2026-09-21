@@ -1,0 +1,24 @@
+retrieval_score_threshold: 0.65
+
+high_risk_intents:
+  - ACCOUNT_ACCESS_SECURITY
+
+payment_intents:
+  - PAYMENT_BILLING
+
+non_support_intents:
+  - OTHER_NON_SUPPORT
+
+return_refund_evidence_terms:
+  - refund
+  - refunded
+  - replacement
+  - return
+  - credited
+
+unresolved_terms:
+  - still
+  - again
+  - not fixed
+  - unresolved
+  - still waiting

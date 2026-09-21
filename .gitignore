@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Data
+data/raw/*
+data/processed/*
+data/golden/*
+
+# Generated outputs
+outputs/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+database/*.db
+
+backend/artifacts/
+
+.ipynb_checkpoints/
+
+node_modules/
+
+*.log

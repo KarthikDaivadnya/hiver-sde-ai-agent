@@ -1,0 +1,45 @@
+intents:
+  DELIVERY_DELAY:
+    description: "Late or delayed shipment or missed promised delivery window."
+
+  DELIVERY_MISSING_OR_MISDELIVERED:
+    description: "Delivered but not received, or delivered to the wrong location."
+
+  DELIVERY_ATTEMPT_OR_INSTRUCTIONS:
+    description: "False delivery attempt, driver behavior, delivery instructions, slot or location."
+
+  ORDER_STATUS_OR_CANCELLATION:
+    description: "Order lifecycle status, cancellation, dispatch or preorder questions."
+
+  RETURN_REPLACEMENT_REFUND:
+    description: "Return, replacement or refund process or status."
+
+  PRODUCT_PROBLEM:
+    description: "Damaged, defective, wrong, incomplete, used or counterfeit product."
+
+  PAYMENT_BILLING:
+    description: "Payment, card, charge, billing or Amazon Pay issues."
+
+  PRIME_MEMBERSHIP:
+    description: "Prime signup, renewal, cancellation or benefits."
+
+  ACCOUNT_ACCESS_SECURITY:
+    description: "Login, password, locked, hacked, 2FA or account security."
+
+  GIFT_CARD_PROMOTION:
+    description: "Gift cards, coupons, promotions or cashback."
+
+  PRODUCT_AVAILABILITY_INFORMATION:
+    description: "Stock, price, availability, shipping eligibility or product information."
+
+  DIGITAL_CONTENT:
+    description: "Prime Video, Amazon Music, Kindle or other digital content."
+
+  DEVICE_TECHNICAL_SUPPORT:
+    description: "Kindle, Fire TV, Fire Stick, Echo, Alexa or device technical support."
+
+  WEBSITE_APP_TECHNICAL:
+    description: "Amazon website, app, checkout, form or UI technical problems."
+
+  OTHER_NON_SUPPORT:
+    description: "Praise, general complaint without identifiable issue, marketing, social, unrelated or insufficient information."
