@@ -5,6 +5,7 @@ import { About } from "./pages/About";
 import { Analyze } from "./pages/Analyze";
 import { Evaluations } from "./pages/Evaluations";
 import { Overview } from "./pages/Overview";
+import { HistoryPage } from "./history";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="analyze" element={<Analyze />} />
             <Route path="evaluations" element={<Evaluations />} />
             <Route path="about" element={<About />} />
+            <Route path="history" element={<HistoryPage />} />
           </Route>
         </Routes>
       </HashRouter>

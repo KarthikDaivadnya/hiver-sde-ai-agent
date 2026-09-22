@@ -1,10 +1,11 @@
-import { BarChart3, Info, LayoutGrid, Search } from "lucide-react";
+import { BarChart3, History, Info, LayoutGrid, Search } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const NAV_ITEMS = [
   { to: "/", label: "Overview", icon: LayoutGrid, end: true },
   { to: "/analyze", label: "Analyze", icon: Search, end: false },
   { to: "/evaluations", label: "Evals", icon: BarChart3, end: false },
+  { to: "/history", label: "History", icon: History, end: false },
   { to: "/about", label: "About", icon: Info, end: false },
 ];
 
