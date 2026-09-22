@@ -708,7 +708,7 @@ Safe human-support guidance
 ## 👨‍💻 Author
 
 **Karthik Daivadnya**
-Computer Science Engineering · AI/ML · Data Science · Full-Stack Development
+· AI/ML · Data Science · Software Development
 
 <div align="center">
 
